@@ -13,9 +13,10 @@ def line(array)
 end
 
 
-def take_a_number(array, element)
-  array << element
-  puts "Welcome, #{element}. You are number #{array.length} in line."
+def take_a_number(array)
+  counter = array.length + 1 
+  array << counter 
+  puts "Welcome, #{counter}. You are number #{array.length} in line."
 end
 
 def  now_serving(array)
@@ -25,3 +26,5 @@ def  now_serving(array)
     puts "There is nobody waiting to be served!"
   end
 end
+
+take_a_number
