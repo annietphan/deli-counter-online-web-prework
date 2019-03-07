@@ -12,7 +12,7 @@ def line(array)
   end
 end
 
-
+katz_deli = []
 def take_a_number(array)
   counter = array.length + 1
   array << counter
