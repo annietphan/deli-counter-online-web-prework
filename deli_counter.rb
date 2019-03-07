@@ -14,8 +14,8 @@ end
 
 
 def take_a_number(array)
-  counter = array.length + 1 
-  array << counter 
+  counter = array.length + 1
+  array << counter
   puts "Welcome, #{counter}. You are number #{array.length} in line."
 end
 
